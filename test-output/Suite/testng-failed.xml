@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Magento.TestCases.TC01_HomePageTest">
+        <methods>
+          <include name="navigateToCreateNewCustomerAccountPage"/>
+          <include name="ApplogoTest"/>
+          <include name="tearDown"/>
+          <include name="NavBarlinksCountTest"/>
+          <include name="setup"/>
+          <include name="HomePageTitleTest"/>
+          <include name="CreateanAccountClickTest"/>
+          <include name="HomePageTest"/>
+        </methods>
+      </class> <!-- Magento.TestCases.TC01_HomePageTest -->
+      <class name="Magento.TestCases.TC03_SignInPageTest">
+        <methods>
+          <include name="navigateToCreateNewCustomerAccountPage"/>
+          <include name="WelcomeUserTest"/>
+          <include name="SignInbuttondropTest"/>
+          <include name="ContactInfoTest"/>
+          <include name="tearDown"/>
+          <include name="SignInConfirmationMSGTest"/>
+          <include name="setup"/>
+          <include name="WelcomeUserVisibleTest"/>
+          <include name="AccInfoTest"/>
+          <include name="SignOutclick"/>
+          <include name="contactDetailsVisibleTest"/>
+        </methods>
+      </class> <!-- Magento.TestCases.TC03_SignInPageTest -->
+      <class name="Magento.TestCases.TC02_CreateNewCustomerAccountPageTest">
+        <methods>
+          <include name="navigateToCreateNewCustomerAccountPage"/>
+          <include name="PersonalInfoTxtTest"/>
+          <include name="SignInInformationTxtTest"/>
+          <include name="firstnameTest"/>
+          <include name="tearDown"/>
+          <include name="EmailTest"/>
+          <include name="PasswordTest"/>
+          <include name="createAnAccountPageTitleTest"/>
+          <include name="setup"/>
+          <include name="ConfPasswordTest"/>
+          <include name="lastnameTest"/>
+          <include name="CreateAnAccountButtonTest"/>
+        </methods>
+      </class> <!-- Magento.TestCases.TC02_CreateNewCustomerAccountPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
